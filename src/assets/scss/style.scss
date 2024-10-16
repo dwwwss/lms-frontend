@@ -1,0 +1,15 @@
+@import "variables";
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.scss";
+@import "./layout/sidebar";
+@import "./layout/container";
+
+// @font-face {
+//     font-family: 'Poppins';
+//     src: url('./FontsFree-Net-AvertaStandard-Regular.ttf') format('truetype');
+//   $font-family-sans-serif: "Poppins", sans-serif}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+$font-family-sans-serif: "Poppins";

@@ -40,7 +40,7 @@ const token = localStorage.getItem("token");
 
 // lOGIN
 export function login(email, password) {
-  var url = `${BASE_URL}${API}${USER}${AUTHENTICATE}?Email=${encodeURIComponent(email)}&Password=${encodeURIComponent(password)}`;
+  var url = `${BASE_URL}${API}${USER}${AUTHENTICATE}`;
   var data = {
     email: email,
     password: password,

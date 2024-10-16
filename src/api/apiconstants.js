@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://post-lms-backend.onrender.com/lms/';
+export const BASE_URL = 'https://post-lms-backend.onrender.com/';
 
 
 export const API = 'api/';
